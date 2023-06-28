@@ -1,5 +1,6 @@
-import { MAIN_ROUTE } from "../../routes/const";
+import { MAIN_ROUTE, projects } from "../../routes/const";
 import { Link } from "react-router-dom";
+import ProjectCards from "../../components/projectCards/ProjectCards";
 import "./Projects.css";
 
 const Projects = () => {
@@ -8,7 +9,16 @@ const Projects = () => {
       <Link to={MAIN_ROUTE}>Home</Link>
       <div className="projectsContainer">
         <h3>Projects:</h3>
-        <p>Project links</p>
+        <div className="card-container">
+          {projects.map((project) => (
+            <ProjectCards
+              key={project.id}
+              image={project.image}
+              title={project.title}
+              githubLink={project.githubLink}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

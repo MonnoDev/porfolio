@@ -3,6 +3,8 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Main from "../pages/Main/Main";
 import Projects from "../pages/Projects/Projects";
+import logo from "../photos/logo.png";
+import logoConstruction from "../photos/logo-construction.png";
 
 export const ABOUT_ROUTE = "/aboutme";
 export const MAIN_ROUTE = "/";
@@ -43,4 +45,19 @@ export const mainPageRoutes = [
 export const socials = [
   { route: LINKEDIN_LINK, title: "LI" },
   { route: GITHUB_LINK, title: "GIT" },
+];
+
+export const projects = [
+  {
+    id: 1,
+    image: logoConstruction,
+    title: "Construction app",
+    githubLink: "https://github.com/sliure/react/tree/main/12_paskaita_final",
+  },
+  {
+    id: 2,
+    image: logo,
+    title: "Linn images",
+    githubLink: "https://github.com/sliure/Photo-app",
+  },
 ];
