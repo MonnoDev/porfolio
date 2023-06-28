@@ -1,10 +1,12 @@
+import React from "react";
 import Navigation from "../components/nav/Navigation";
 
-const PortfolioLayout = () => {
+const PortfolioLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <Navigation />
-    </div>
+      <div>{children}</div>
+    </>
   );
 };
 

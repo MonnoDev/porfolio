@@ -8,7 +8,11 @@ const MyRoutes = () => {
         <Route
           key={path}
           path={path}
-          element={<porfolioRoutes.Layout>{Component}</porfolioRoutes.Layout>}
+          element={
+            <porfolioRoutes.Layout>
+              <Component />
+            </porfolioRoutes.Layout>
+          }
         />
       ))}
     </Routes>

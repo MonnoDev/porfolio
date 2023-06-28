@@ -1,0 +1,49 @@
+.pageWrapper {
+    display: flex;
+    height: 100%;
+  }
+  
+  .mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .mainInfoContainer {
+    margin-bottom: 2vh;
+  }
+  
+  .mainRoutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .mainRoutes a {
+    text-decoration: none;
+    text-align: center;
+    color: #1a1818;
+    text-transform: uppercase;
+    font-size: 11vw;
+    font-weight: 300;
+    line-height: 0.95em;
+    margin-bottom: 2vh;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+  }
+  
+  .mainRoutes a:hover {
+    transform: scale(1.1);
+    color: #252930;
+  }
+  
+  
