@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Button = ({ children, url }) => {
   return (
-    <Link to={url} target="_blank" download>
+    <Link to={url}>
       <button className="custom-button">{children}</button>
     </Link>
   );

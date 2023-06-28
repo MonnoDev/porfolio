@@ -1,21 +1,58 @@
 .contactContainer {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-  }
-  
-  .contactContainer h3 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .contactContainer p {
-    font-size: 20px;
-    line-height: 1.5;
-    max-width: 600px;
-    margin-bottom: 40px;
-  }
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.contactContainer h3 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.contactContainer p {
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.email {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+svg {
+  margin-right: 4px;
+}
+
+.email:hover,
+.contactContainer p.web-links a:hover {
+  color: #252930;
+}
+
+
+.contactContainer p.web-links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contactContainer p.web-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+}
+
+.contactContainer p.web-links svg {
+  margin-right: 4px;
+}
+
+

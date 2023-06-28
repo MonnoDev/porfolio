@@ -3,8 +3,11 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Main from "../pages/Main/Main";
 import Projects from "../pages/Projects/Projects";
-import logo from "../photos/logo.png";
+import logo from "../photos/logo.jpg";
 import logoConstruction from "../photos/logo-construction.png";
+import NFT from "../photos/NFT-logo.png";
+import MoviesLogo from "../photos/logo-movies.png";
+import ComingSoon from "../photos/Coming-soon.jpg";
 
 export const ABOUT_ROUTE = "/aboutme";
 export const MAIN_ROUTE = "/";
@@ -59,5 +62,23 @@ export const projects = [
     image: logo,
     title: "Linn images",
     githubLink: "https://github.com/sliure/Photo-app",
+  },
+  {
+    id: 3,
+    image: NFT,
+    title: "NFT app",
+    githubLink: "https://github.com/sliure/NFTs",
+  },
+  {
+    id: 4,
+    image: MoviesLogo,
+    title: "Movie-app",
+    githubLink: "https://github.com/sliure/Movie-app",
+  },
+  {
+    id: 5,
+    image: ComingSoon,
+    title: "Coming soon",
+    githubLink: "https://github.com/sliure",
   },
 ];

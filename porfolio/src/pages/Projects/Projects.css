@@ -19,3 +19,13 @@
     max-width: 600px;
     margin-bottom: 40px;
   }
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
